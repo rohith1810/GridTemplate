@@ -2,6 +2,7 @@
     margin: 0;
     font-variant: small-caps;
     box-sizing: border-box;
+    margin-right:0px;
 }
 .div1{
     background-color: blue;

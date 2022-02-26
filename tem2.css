@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    font-variant: small-caps;
+    box-sizing: border-box;
+}
+.div1{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.col1{
+    width: 25%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    color: white;
+}
+.col1 img{
+    margin: 12px;
+    background-position: center;
+    width: 82%;
+    border: 1px solid white;
+    margin-top: 45px;
+}
+.col1 div{
+    text-align: center;
+    padding: 09px;
+}
+.home{
+    border: 1px dotted white;
+    border-left: 5px solid red;
+}
+.about{
+    border: 1px dotted white;
+    border-left: 5px solid salmon;
+}
+.contact{
+    border: 1px dotted white;
+    border-left: 5px solid blue;
+}
+.pf{
+    border: 1px dotted white;
+    border-left: 5px solid lime;
+}
+.ser{
+    border: 1px dotted white;
+    border-left: 5px solid orangered;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.div2 {
+    background-image: url('sun.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto;
+    width: 75%;
+    margin-left: 25%;
+}
+.col3 h4{
+    margin-left: 30%;
+    color: white;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.col3 p{
+    color: rgb(221, 167, 147);
+    font-size: 18px;
+    text-align: center;
+}
+.center  button{
+    margin-left: 36%;
+    width: 150px;
+    padding: 10px;
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: brown;
+}
+.input{
+    margin-left: 36%;
+}
+.div3 {
+    position: relative;
+    width: 75%;
+    margin-left: 25%;
+}
+.col4 h4{
+    color: aqua;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 30%;
+}
+.col4 p{
+    color:violet ;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+.div4{
+    margin-left: 05%;
+    margin-top: 3%;
+}
+.div4 hr , .div7 hr{
+    padding: 3px;
+    background-color: tomato;
+}
+.div4 span ,.div7 span{
+    background-color: tomato;
+    color: azure;
+    font-size: 30px;
+}
+.div5{
+    margin-top: 3%;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.div5 h4{
+    color: tomato;
+    text-align: center;
+    font-size: 20px;
+}
+.div5 p{
+    color: rgb(56, 15, 9);
+    text-align: center;
+    font-size: 15px;
+}
+.div6{
+    margin-top: 3%;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: 70% 25%;
+}
+.div6 img{
+    margin-top: 07%;
+    width: 100%;   
+}
+.mt h2{
+   color: tomato;
+   font-size: 20px;
+}
+.div7{
+    margin-top: 3%;
+    margin-left: 28%;
+    margin-right: 2%;
+}
+.service{
+    width: 70%;
+    margin-left: 28%;
+    display: grid;
+    grid-template-columns: auto auto auto;    
+}
+.box1{
+    border-right: 2px solid wheat;
+    font-size: x-large;
+    background-color: darkcyan;
+}
+.div8{
+    margin-top: 3%;
+    margin-left: 28%;
+    display: grid;
+    grid-template-columns: 65% 30%;
+}
+.para{
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.para h4{
+    color: purple;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.hovr{
+    margin-left: 5%;
+}
+.hovr button{
+    padding: 07px;
+    text-align: left;
+}
+
+.btn1,.btn2 ,.btn3,.btn4{
+    width: 80%;
+    padding: 10px;
+    color: white;
+    border: 1px solid black;
+    background-color:darkcyan;
+    border-radius: 4px;
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+.btn1:hover{
+    cursor: pointer;
+    color: black;
+}
+.btn1::before{
+    transition: 2s all ease-out;
+    top: 0;
+    left: 90%;
+    right: 0%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    position: absolute;
+    background-color:white;
+}
+.btn1:hover::before{
+    transition: 2s all ease ;
+    left: 90%;
+    right: 0;
+    z-index: -1;
+    opacity: 1;
+}
+.btn2:hover{
+    cursor: pointer;
+    color: black;
+}
+.btn2::before{
+    transition: 2s all ease-out;
+    top: 0;
+    left: 73%;
+    right: 0%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    position: absolute;
+    background-color:white;
+}
+.btn2:hover::before{
+    transition: 2s all ease ;
+    left: 73%;
+    right: 0;
+    z-index: -1;
+    opacity: 1;
+}
+.btn3:hover{
+    cursor: pointer;
+    color: black;
+}
+.btn3::before{
+    transition: 2s all ease-out;
+    top: 0;
+    left: 66%;
+    right: 0%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    position: absolute;
+    background-color:white;
+}
+.btn3:hover::before{
+    transition: 2s all ease ;
+    left: 66%;
+    right: 0;
+    z-index: -1;
+    opacity: 1;
+}
+.btn4:hover{
+    cursor: pointer;
+    color: black;
+}
+.btn4::before{
+    transition: 2s all ease-out;
+    top: 0;
+    left: 88%;
+    right: 0%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    position: absolute;
+    background-color:white;
+}
+.btn4:hover::before{
+    transition: 2s all ease ;
+    left: 88%;
+    right: 0;
+    z-index: -1;
+    opacity: 1;
+}
+.div9{
+    display: grid;
+    width: 70%;
+    margin-left: 28%;
+    grid-template-columns: auto auto auto; 
+}
+.div9 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkcyan;
+}
+.div9  button{
+    margin-left: 25%;
+    width:50%;
+    padding: 4%;
+    background-color: darkcyan;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.div10{
+    margin-left: 28%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.div10 input {
+    border: 1px solid black;
+    padding: 07px;
+    width: 75%;
+}
+.div11{
+    margin-left: 28%;
+    width: 70%;
+    display: grid;
+}
+.div11 textarea {
+    border: 1px solid black;
+}
+.cpright{
+    width: 75%;
+    margin-left: 25%;
+    background-color: #080000 ;
+}
+.cpright ul{
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    margin:0px ;
+    padding:0px ;
+}
+.cpright ul li{
+    display: inline-block;
+    padding: 20px;
+    size: 10px;
+}
+.fa-google{
+    color: white;
+    text-shadow: tomato; 
+}
+.fa-twitter-square{
+    color: blue;
+    text-shadow: cornsilk;
+}
+.fa-facebook-square{
+    color: blue;
+    text-shadow: cornsilk;
+}
+.fa-youtube{
+    color: red;
+    text-shadow: salmon;
+}
+.fa-linkedin{
+    color: blue;
+    text-shadow: chartreuse;
+}
+.end{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
